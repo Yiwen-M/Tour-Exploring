@@ -1,0 +1,22 @@
+{
+  "name": "natours-app",
+  "version": "1.0.0",
+  "description": "A tour booking web application based on JavaScript and NodeJS, using Express and MongoDB",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Yiwen-M/Tour-Exploring.git"
+  },
+  "author": "Yiwen Ma",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Yiwen-M/Tour-Exploring/issues"
+  },
+  "homepage": "https://github.com/Yiwen-M/Tour-Exploring#readme",
+  "dependencies": {
+    "express": "^4.18.1"
+  }
+}
