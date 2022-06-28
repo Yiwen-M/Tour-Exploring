@@ -139,5 +139,12 @@
     "name": "Test Tour",
     "duration": "Test 10",
     "difficulty": "Test easy"
+  },
+  {
+    "id": 10,
+    "name": "Test Tour",
+    "price": "10",
+    "duration": "Test 10",
+    "difficulty": "Test easy"
   }
 ]
