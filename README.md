@@ -9,8 +9,8 @@
 <p align="center">
   <a href="#key-features">Key Features</a> •
     <a href="#installation">Installation</a> • 
-  <a href="#build-with">Technology Stack</a> •
-  <a href="#to-do">Future Work</a> •
+  <a href="#technology-stack">Technology Stack</a> •
+  <a href="#future-work">Future Work</a> •
    <a href="#demo">Demo</a>
 </p>
 
