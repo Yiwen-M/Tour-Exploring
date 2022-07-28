@@ -4,7 +4,7 @@
   <br>
 </h1>
 
-<h4 align="center">An awesome tour booking site built on top of <a href="https://nodejs.org/en/" target="_blank">NodeJS</a>.</h4>
+<h4 align="center">An tour booking site built on top of <a href="https://nodejs.org/en/" target="_blank">NodeJS</a></h4>
 
 <p align="center">
   <a href="#key-features">Key Features</a> •
@@ -16,13 +16,10 @@
 
 ## Key Features
 
-* Authentication and Authorization
-  - Login and logout
-* Tour
-  - Manage booking, check tours map, check users' reviews and rating
-* User profile
-  - Update username, photo, email, and password
-* Credit card Payment
+* User login and logout
+* Update username, photo, email, and password
+* Browse all available tours, manage booked tours, check tours map and check users' reviews and rating
+* Credit card Payment for tour booking
 <br>
   
 ## Installation
@@ -41,23 +38,15 @@ npm install
 * [MongoDB Atlas](https://www.mongodb.com/cloud/atlas) - Cloud database service
 * [Pug](https://pugjs.org/api/getting-started.html) - High performance template engine
 * [JSON Web Token](https://jwt.io/) - Security token
-* [ParcelJS](https://parceljs.org/) - Blazing fast, zero configuration web application bundler
 * [Stripe](https://stripe.com/) - Online payment API
 * [Mailtrap](https://mailtrap.io/) & [Sendgrid](https://sendgrid.com/) - Email delivery platform
-* [Heroku](https://www.heroku.com/) - Cloud platform
 <br>
 
 ## Future Work
 
-* Review and rating
-  - Allow user to add a review directly at the website after they have taken a tour
-* Booking
-  - Prevent duplicate bookings after user has booked that exact tour, implement favourite tours
 * Advanced authentication features
-  - Signup, confirm user email, login with refresh token, two-factor authentication
+  - Two-factor authentication
 * Enable PWA
-* Improve overall UX/UI and fix bugs
-* Featured Tours
 * Recently Viewed Tours
 <br>
 
