@@ -16,8 +16,8 @@
 
 ## Key Features
 
-* User login and logout
-* Update username, photo, email, and password
+* User signup, login and logout
+* Update username, photo, email, and change password
 * Browse all available tours, manage booked tours, check tours map and check users' reviews and rating
 * Credit card Payment for tour booking
 <br>
