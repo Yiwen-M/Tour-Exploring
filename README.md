@@ -53,19 +53,19 @@ npm install
 ## Demo
 
 #### Home Page (Tour Overview) :
-<img src="https://github.com/Yiwen-M/Tour-Exploring/blob/main/public/img/DemoImg/Tour%20Overview.gif">
+
 
 #### Tour Details :
-<img src="https://github.com/Yiwen-M/Tour-Exploring/blob/main/public/img/DemoImg/Tour%20Detail.gif">
+
 
 #### Payment Process :
 
 
 #### Booked Tours :
-<img src="https://github.com/Yiwen-M/Tour-Exploring/blob/main/public/img/DemoImg/Booked%20Tours.png">
+
 
 #### User Profile :
-<img src="https://github.com/Yiwen-M/Tour-Exploring/blob/main/public/img/DemoImg/User%20Profile.png">
+
 
 #### Admin Profile :
-<img src="https://github.com/Yiwen-M/Tour-Exploring/blob/main/public/img/DemoImg/Admin%20Profile.png">
+
