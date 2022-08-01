@@ -59,7 +59,7 @@ npm install
 <img src="https://github.com/Yiwen-M/Tour-Exploring/blob/main/public/img/DemoImg/Tour%20Detail.gif">
 
 #### Payment Process :
-<img src="https://github.com/Yiwen-M/Tour-Exploring/blob/main/public/img/DemoImg/Payment.gif">
+
 
 #### Booked Tours :
 <img src="https://github.com/Yiwen-M/Tour-Exploring/blob/main/public/img/DemoImg/Booked%20Tours.png">
