@@ -6671,7 +6671,7 @@ Object.defineProperty(exports, "__esModule", {
 exports.displayMap = void 0;
 
 var displayMap = function displayMap(locations) {
-  mapboxgl.accessToken = 'pk.eyJ1IjoieXd3MDIyNSIsImEiOiJjbDZlMHh2djQyMXo1M2pyejRldXpqdHdxIn0.yJlLmV2tR8VitlFGnGMFcQ';
+  mapboxgl.accessToken = undefined;
   var map = new mapboxgl.Map({
     container: 'map',
     style: 'mapbox://styles/yww0225/cl6e119ju002814qp0vtkc0ie',
@@ -11247,7 +11247,7 @@ var logout = /*#__PURE__*/function () {
 
           case 3:
             res = _context2.sent;
-            if (res.data.status = 'success') location.reload(true);
+            if (res.data.status = 'success') location.assign(true);
             _context2.next = 11;
             break;
 
@@ -11302,7 +11302,7 @@ var updateSettings = /*#__PURE__*/function () {
         switch (_context.prev = _context.next) {
           case 0:
             _context.prev = 0;
-            url = type === 'password' ? 'http://127.0.0.1:3000/api/v1/users/updateMyPassword' : 'http://127.0.0.1:3000/api/v1/users/updateUser';
+            url = type === 'password' ? 'http://127.0.0.1:3000/api/v1/users/updateMyPassword' : 'http://127.0.0.1:3000/api/v1/users/updateMe';
             _context.next = 4;
             return (0, _axios.default)({
               method: 'PATCH',
