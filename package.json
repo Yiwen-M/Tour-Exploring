@@ -1,5 +1,5 @@
 {
-  "name": "natours-app",
+  "name": "tour-exploring",
   "version": "1.0.0",
   "description": "A tour booking web application based on JavaScript and NodeJS, using Express and MongoDB",
   "main": "app.js",
