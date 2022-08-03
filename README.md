@@ -8,10 +8,11 @@
 
 <p align="center">
   <a href="#key-features">Key Features</a> •
-    <a href="#installation">Installation</a> • 
+  <a href="#installation">Installation</a> • 
+  <a href="#api-doc">API DOC</a> •
   <a href="#technology-stack">Technology Stack</a> •
   <a href="#future-work">Future Work</a> •
-   <a href="#demo">Demo</a>
+  <a href="#demo">Demo</a>
 </p>
 
 ## Key Features
@@ -29,7 +30,13 @@ cd Tour-Exploring
 npm install
 ```
 <br>
-  
+
+## API DOC
+
+Check [Tour Exploring API Documentation](https://documenter.getpostman.com/view/18133948/Uzs425dh) for more info
+
+<br>
+
 ## Technology Stack
 
 * [NodeJS](https://nodejs.org/en/) - JS runtime environment
