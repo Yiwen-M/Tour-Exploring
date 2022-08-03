@@ -812,19 +812,6 @@ body {
     justify-items: center;
   }
 }
-.footer__logo {
-  grid-row: 1 / 3;
-  -ms-flex-item-align: center;
-  align-self: center;
-}
-@media only screen and (max-width: 50em) {
-  .footer__logo {
-    grid-row: 1;
-  }
-}
-.footer__logo img {
-  height: 3rem;
-}
 .footer__nav {
   list-style: none;
   display: -webkit-box;

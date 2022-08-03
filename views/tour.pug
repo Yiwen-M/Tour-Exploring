@@ -2,9 +2,10 @@ extends base
 include _reviewCard
 
 block append head
-  script(src='https://api.mapbox.com/mapbox-gl-js/v0.54.0/mapbox-gl.js')
-  link(href='https://api.mapbox.com/mapbox-gl-js/v0.54.0/mapbox-gl.css' rel='stylesheet')
-
+  script(src='https://api.mapbox.com/mapbox-gl-js/v2.9.2/mapbox-gl.js')
+  link(href='https://api.mapbox.com/mapbox-gl-js/v2.9.2/mapbox-gl.css' rel='stylesheet')
+  script(defer src='/js/mapbox.js')
+  
 mixin overviewBox(label, text, icon)
   .overview-box__detail
     svg.overview-box__icon
@@ -78,7 +79,7 @@ block content
   section.section-cta
     .cta
       .cta__img.cta__img--logo
-        img(src='/img/logo-white.png', alt='Tours Exploring logo')
+        img(src='/img/logo-white.png', alt='Tour Exploring logo')
       img.cta__img.cta__img--1(src=`/img/tours/${tour.images[1]}`, alt='Tour picture')
       img.cta__img.cta__img--2(src=`/img/tours/${tour.images[2]}`, alt='Tour picture')
       .cta__content
