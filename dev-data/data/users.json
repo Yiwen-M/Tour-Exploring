@@ -1,21 +1,30 @@
 [
   {
     "_id": "5c8a1d5b0190b214360dc057",
-    "name": "John Doe",
-    "email": "admin@tours.io",
+    "name": "Admin Test",
+    "email": "admin@test.com",
     "role": "admin",
     "active": true,
     "photo": "user-1.jpg",
-    "password": "$2a$12$Q0grHjH9PXc6SxivC8m12.2mZJ9BbKcgFpwSG4Y1ZEII8HJVzWeyS"
+    "password": "test1234"
   },
   {
     "_id": "5c8a1dfa2f8fb814b56fa181",
-    "name": "Lourdes Browning",
-    "email": "loulou@example.com",
+    "name": "User Test",
+    "email": "user@test.com",
     "role": "user",
     "active": true,
     "photo": "user-2.jpg",
-    "password": "$2a$12$hP1h2pnNp7wgyZNRwPsOTeZuNzWBv7vHmsR3DT/OaPSUBQT.y0S.."
+    "password": "test1234"
+  },
+  {
+    "_id": "5c8a1f292f8fb814b56fa184",
+    "name": "Guide Test",
+    "email": "guide@test.com",
+    "role": "guide",
+    "active": true,
+    "photo": "user-3.jpg",
+    "password": "$test1234"
   },
   {
     "_id": "5c8a1e1a2f8fb814b56fa182",
@@ -23,7 +32,7 @@
     "email": "sophie@example.com",
     "role": "user",
     "active": true,
-    "photo": "user-3.jpg",
+    "photo": "user-4.jpg",
     "password": "$2a$12$9nFqToiTmjgfFVJiQvjmreLt4k8X4gGYCETGapSZOb2hHa55t0dDq"
   },
   {
@@ -32,18 +41,10 @@
     "email": "ayls@example.com",
     "role": "user",
     "active": true,
-    "photo": "user-4.jpg",
+    "photo": "user-5.jpg",
     "password": "$2a$12$tm33.M/4pfEbZF64WbFuHuVFv85v4qEhi.ik8njbud7yaoqCZpjiy"
   },
-  {
-    "_id": "5c8a1f292f8fb814b56fa184",
-    "name": "Leo Gillespie",
-    "email": "leo@example.com",
-    "role": "guide",
-    "active": true,
-    "photo": "user-5.jpg",
-    "password": "$2a$12$OOPr90tBEBF1Iho3ox0Jde0O/WXUR0VLA5xdh6tWcu7qb.qOCvSg2"
-  },
+  
   {
     "_id": "5c8a1f4e2f8fb814b56fa185",
     "name": "Jennifer Hardy",
