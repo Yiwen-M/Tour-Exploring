@@ -1,8 +1,9 @@
 # dependency
 /node_modules
 
-#configuration
+# environment
 config.env
+*.env
 
-#cache
+# cache
 .cache/

@@ -17,12 +17,12 @@ const multerFilter = (req, file, cb) => {
 
 const upload = multer({
   storage: multerStorage,
-  fileFilter: multerFilter
+  fileFilter: multerFilter,
 });
 
 exports.uploadTourImages = upload.fields([
   { name: 'imageCover', maxCount: 1 },
-  { name: 'images', maxCount: 3 }
+  { name: 'images', maxCount: 3 },
 ]);
 
 // upload.single('image') req.file
