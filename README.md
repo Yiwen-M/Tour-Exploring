@@ -60,19 +60,22 @@ Check [Tour Exploring API Documentation](https://documenter.getpostman.com/view/
 ## Demo
 
 #### Home Page (Tour Overview) :
+<img src="https://github.com/Yiwen-M/Tour-Exploring/blob/main/public/img/DemoImg/Tour%20Overview.gif">
 
 
 #### Tour Details :
+<img src="https://github.com/Yiwen-M/Tour-Exploring/blob/main/public/img/DemoImg/Tour%20Detail.gif">
 
 
-#### Payment Process :
-
-
-#### Booked Tours :
-
-
-#### User Profile :
+#### Credit Card Payment :
+<img src="">
 
 
 #### Admin Profile :
+<img src="https://github.com/Yiwen-M/Tour-Exploring/blob/main/public/img/DemoImg/Admin%20Profile.gif">
+
+
+#### User Profile :
+<img src="https://github.com/Yiwen-M/Tour-Exploring/blob/main/public/img/DemoImg/User%20Profile.gif">
+
 
