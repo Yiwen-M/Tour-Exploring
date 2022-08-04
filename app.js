@@ -11,7 +11,6 @@ const bodyParser = require('body-parser');
 const compression = require('compression');
 const cors = require('cors');
 
-
 const AppError = require('./utils/appError');
 const globalErrorHandler = require('./controllers/errorController');
 const viewRouter = require('./routes/viewRoutes');
