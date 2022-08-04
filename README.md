@@ -60,22 +60,22 @@ Check [Tour Exploring API Documentation](https://documenter.getpostman.com/view/
 ## Demo
 
 #### Home Page (Tour Overview) :
-<img src="https://github.com/Yiwen-M/Tour-Exploring/blob/main/public/img/DemoImg/Tour%20Overview.gif">
+<img src="https://github.com/Yiwen-M/Tour-Exploring/blob/main/public/img/DemoImg/Tour%20Overview.gif" width="750">
 
 
 #### Tour Details :
-<img src="https://github.com/Yiwen-M/Tour-Exploring/blob/main/public/img/DemoImg/Tour%20Detail.gif">
+<img src="https://github.com/Yiwen-M/Tour-Exploring/blob/main/public/img/DemoImg/Tour%20Detail.gif" width="750">
 
 
 #### Credit Card Payment :
-<img src="">
+<img src="https://github.com/Yiwen-M/Tour-Exploring/blob/main/public/img/DemoImg/Payment.JPG" width="750">
 
 
 #### Admin Profile :
-<img src="https://github.com/Yiwen-M/Tour-Exploring/blob/main/public/img/DemoImg/Admin%20Profile.gif">
+<img src="https://github.com/Yiwen-M/Tour-Exploring/blob/main/public/img/DemoImg/Admin%20Profile.gif" width="750">
 
 
 #### User Profile :
-<img src="https://github.com/Yiwen-M/Tour-Exploring/blob/main/public/img/DemoImg/User%20Profile.gif">
+<img src="https://github.com/Yiwen-M/Tour-Exploring/blob/main/public/img/DemoImg/User%20Profile.gif" width="750">
 
 
