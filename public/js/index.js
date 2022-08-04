@@ -2,6 +2,7 @@ import '@babel/polyfill';
 import { displayMap } from './mapbox';
 import { login, logout } from './login';
 import { updateSettings } from './updateSettings';
+import { resizeImage } from './resizeImage.js';
 
 // DOM ELEMENTS
 const mapBox = document.getElementById('map');
@@ -9,6 +10,7 @@ const loginForm = document.querySelector('.form--login');
 const logOutBtn = document.querySelector('.nav__el--logout');
 const userDataForm = document.querySelector('.form-user-data');
 const userPasswordForm = document.querySelector('.form-user-password');
+const pfpUploadInput = document.getElementById('photo');
 
 // DELEGATION
 if (mapBox) {
@@ -25,6 +27,15 @@ if (loginForm)
   });
 
 if (logOutBtn) logOutBtn.addEventListener('click', logout);
+
+if (userDataForm)
+  pfpUploadInput.addEventListener('change', async (e) => {
+    const inputPic = pfpUploadInput.files[0];
+    if (inputPic) {
+      const userPhotoElement = document.querySelector('.form__user-photo');
+      resizeImage(inputPic, 500, 500, userPhotoElement);
+    }
+  });
 
 if (userDataForm)
   userDataForm.addEventListener('submit', (e) => {
