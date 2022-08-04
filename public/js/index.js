@@ -3,6 +3,7 @@ import { displayMap } from './mapbox';
 import { login, logout } from './login';
 import { updateSettings } from './updateSettings';
 import { resizeImage } from './resizeImage.js';
+import { bookTour } from './stripe';
 
 // DOM ELEMENTS
 const mapBox = document.getElementById('map');
@@ -11,6 +12,7 @@ const logOutBtn = document.querySelector('.nav__el--logout');
 const userDataForm = document.querySelector('.form-user-data');
 const userPasswordForm = document.querySelector('.form-user-password');
 const pfpUploadInput = document.getElementById('photo');
+const bookBtn = document.getElementById('book-tour');
 
 // DELEGATION
 if (mapBox) {
@@ -66,4 +68,11 @@ if (userPasswordForm)
     document.getElementById('password-current').value = '';
     document.getElementById('password').value = '';
     document.getElementById('password-confirm').value = '';
+  });
+
+if (bookBtn)
+  bookBtn.addEventListener('click', (e) => {
+    e.target.textContent = 'Processing...';
+    const { tourId } = e.target.dataset;
+    bookTour(tourId);
   });
